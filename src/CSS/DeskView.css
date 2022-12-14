@@ -1,0 +1,752 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.HeadersPart {
+  height: 80px;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.HeadersPartWrap {
+  height: 80px;
+  width: 90%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogoDiv img {
+  display: flex;
+  align-items: center;
+}
+
+.LogoDiv img {
+  width: 40%;
+  margin-top: 80px;
+}
+
+.HeadersPartWrap ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+
+.HeadersPartWrap ul li {
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+.HeadersPartWrap ul li:hover {
+  color: red;
+}
+
+.homeTabT {
+  color: red;
+  transition: all 350ms;
+}
+
+.homeTabF {
+  color: black;
+  transition: all 350ms;
+}
+
+.SignInT {
+  transition: all 350ms;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SignInF {
+  transition: all 350ms;
+  color: black;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AccountD {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.AccountD li {
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+.AccountD li:hover {
+  color: red;
+}
+
+.IconTesting {
+  display: none;
+}
+
+.SectionOne {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: white;
+  margin-top: 20px;
+}
+
+.imgslider {
+  width: 90%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.ImageContain {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.SectionOneWrap {
+  width: 100%;
+  /* background: #000; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.SecntionOneLeft {
+  width: 50% ;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SecntionOneLeft span {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.SecntionOneLeft h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  color: rgb(99, 207, 250);
+}
+
+.SecntionOneLeft h3 {
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+}
+
+.SecntionOneLeft h3 span {
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(252, 106, 131);
+}
+
+.SecntionOneLeft p {
+  width: 80%;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.SecntionOneLeft button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px 25px 25px 25px;
+  background-color: red;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.308);
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+.SecntionOneLeft button:hover {
+  background-color: rgb(187, 5, 5);
+
+}
+
+.SecntionOneRight {
+  width: 50% ;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CircleOne {
+  width: 90%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 192, 203, 0.678);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CircleTwo {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: rgba(247, 169, 182, 0.486);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CircleThree {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: rgb(99, 207, 250);
+  object-fit: cover;
+}
+
+.CircleThree img {
+  margin-top: -90px;
+  margin-left: -150px;
+  width: 130%;
+}
+
+.SectionTwo {
+  width: 100%;
+  height: 250px;
+  background-color: rgba(210, 234, 243, 0.274);
+  display: flex;
+  justify-content: center;
+}
+
+.SectionTwoWrap {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SecTwoCard {
+  width: 320px;
+  height: 180px;
+  background-color: white;
+  border-radius: 30px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);;
+}
+
+.SecTwoLogo {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  object-position: center;
+}
+
+.SecTwoLogo img {
+  width: 75%;
+  height: 200%;
+}
+
+.SecTwoText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SecTwoText h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: rgb(99, 207, 250);
+}
+
+.SecTwoText p {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.808);
+}
+
+.SectionThree {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(252, 229, 233, 0.205);
+}
+
+.SectionThreeWrap {
+  width: 90%;
+  height: 100%;
+}
+
+.ButterIceTop {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.ButterIceTopOne h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: red;
+}
+
+.ButterIceTopOne h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.ButterIceTopOne p {
+  font-size: 14px;
+}
+
+.ButterIceTopTwo {
+  display: flex;
+}
+
+.ButterIceTopTwo h2 {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 192, 203, 0.678);
+  color: red;
+  cursor: pointer;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.ButterIceCardContain {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+}
+
+/* .ButterIceCardContainrow {
+  min-width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  display: flex;
+} */
+
+.ButerIceCard {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+
+.ButerIceCardTop {
+  width: 100%;
+  height: 75%;
+  display: flex;
+}
+
+.ButerIceCardTop img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.CakeDet {
+  width: 50%;
+  padding: 5px;
+  border-left: 2px rgba(247, 169, 182, 0.486) solid;
+}
+
+.CakeDet h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  /* color: rgb(99, 207, 250); */
+  color: red;
+  text-align: center;
+  border-bottom: 2px rgba(247, 169, 182, 0.486) solid;
+}
+
+.CakeDet p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align:center;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.ButerIceCardButtom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ButerIceCardButtom h2 {
+  color: rgb(17, 166, 224);
+}
+
+.ButerIceCardButtom button {
+  width: 90px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.SectionFour {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+  object-fit: cover;
+  display: flex;
+}
+
+.SectionFour video {
+  width: 50%;
+  /* height: 100%; */
+}
+
+.SectionFive {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(252, 229, 233, 0.205);
+}
+
+.SectionFiveWrap {
+  width: 90%;
+  height: 100%;
+}
+
+.FundantTop {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.FundantTopOne h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: red;
+}
+
+.FundantTopOne h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.FundantTopOne p {
+  font-size: 14px;
+}
+
+.FundantCardContain {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.FundantCard {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+
+.FundantCardTop {
+  width: 100%;
+  height: 75%;
+  display: flex;
+}
+
+.FundantCardTop img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.CakeDet2 {
+  width: 50%;
+  padding: 5px;
+  border-left: 2px rgba(247, 169, 182, 0.486) solid;
+}
+
+.CakeDet2 h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  /* color: rgb(99, 207, 250); */
+  color: red;
+  text-align: center;
+  border-bottom: 2px rgba(247, 169, 182, 0.486) solid;
+}
+
+.CakeDet2 p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align:center;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.FundantCardButtom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.FundantCardButtom h2 {
+  color: rgb(17, 166, 224);
+}
+
+.FundantCardButtom button {
+  width: 90px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.SectionSix {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SectionSixWrap {
+  width: 90%;
+  height: 100%;
+  display: flex;
+}
+
+.FoundImage {
+  width: 50%;
+  height: 100%;
+}
+
+.Footer {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .FooterWrap {
+  width: 90%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterColumn {
+  width: 24%;
+  height: 100%;
+} */
+
+
+.bodydiv6{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerInnerOne {
+  width: 30%;
+  height: 100%;
+}
+
+.footerInnerOne img {
+  width: 60%;
+}
+
+.footerInnerOne p{
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: -40px;
+  color: rgba(245, 245, 245, 0.795);
+}
+
+.Telephone{
+  width: 30%;
+  height: 80%;
+  padding: 40px 0;
+  border: 2px solid rgba(245, 245, 245, 0.582);
+}
+
+.in-Telephone {
+ display: flex; 
+ flex-direction: column;
+  align-items: center;
+}
+
+.in-Telephone p{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.social-div{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.circle{
+  height: 50px;
+  width: 50px;
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+.FooterThre {
+  width: 25%;
+  height: 80%;
+}
+
+.FooterThreein {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info{
+  display: flex;
+  /* width: 50%; */
+  flex-direction: column;
+}
+
+.info li{
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+}
+
+.info  li:hover{
+  color:red;
+}
+
+.FooterThreeL {
+  display: flex;
+  align-items: flex-end;
+}
+
+.FooterThreeL textarea {
+  width: 75%;
+  height: 80px;
+  outline: none;
+  padding: 5px;
+}
+
+.FooterThreeL button {
+  width: 20%;
+  height: 40px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: all 350ms;
+}
+
+.FooterThreeL button:hover {
+  background-color: rgb(180, 6, 6);
+  
+}
